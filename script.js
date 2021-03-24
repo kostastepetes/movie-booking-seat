@@ -31,7 +31,7 @@ function updatePrice(price, amount) {
   }
 }
 
-function popolaUI() {
+function populateUI() {
   const selectdSeats = JSON.parse(localStorage.getItem("selectedSeats"));
   console.log(selectdSeats);
   if (selectdSeats != null && selectdSeats.length > 0) {
